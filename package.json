@@ -1,0 +1,24 @@
+{
+  "name": "eu.benextapp",
+  "version": "5.0.0",
+  "description": "This app adds support for Benext devices in Homey",
+  "main": "app.js",
+  "dependencies": {
+    "homey-log": "^2.0.1",
+    "homey-zwavedriver": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-athom": "^2.1.0"
+  },
+  "scripts": {
+    "run": "homeyConfig compose && homey app run",
+    "install": "homeyConfig compose && homey app install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12.16.1"
+  }
+}

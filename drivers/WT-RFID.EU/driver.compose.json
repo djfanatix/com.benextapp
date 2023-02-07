@@ -1,0 +1,59 @@
+{
+    "id": "WT-RFID.EU",
+    "name": {
+        "en": "Mini RFID keypad",
+        "nl": "Mini RFID keypad"
+    },
+    "zwave": {
+        "manufacturerId": 138,
+        "productTypeId": 7,
+        "productId": 512,
+        "learnmode": {
+            "image": "/drivers/WT-RFID.EU/assets/learnmode.svg",
+            "instruction": {
+                "en": "Press and hold the enter button for two seconds (indication LED blinks shortly). Release the enter. Note: the rfid keypad must be close to homey.",
+                "nl": "Press and hold the enter button for two seconds (indication LED blinks shortly). Release the enter. Let op: de rfid keypad moet dicht bij homey in de buurt zijn."
+            }
+        },
+        "associationGroups": [
+            1
+        ],
+        "associationGroupsOptions": {},
+        "wakeUpInterval": 900,
+        "defaultConfiguration": [{
+            "id": 7,
+            "size": 1,
+            "value": 1
+        }]
+    },
+    "class": "homealarm",
+    "capabilities": [
+        "measure_battery",
+        "alarm_tamper",
+        "user_code_report",
+        "homealarm_state",
+        "my_gateway_control"
+    ],
+    "mobile": {
+        "components": [
+            {
+                "id": "icon"
+            },
+            {
+                "id": "battery",
+                "capabilities": [ "measure_battery" ]
+            },
+            {
+            "id": "sensor",
+            "capabilities": [ "homealarm_state", "alarm_tamper" ]
+            }
+        ]
+    },
+    "energy": {
+        "batteries": [ "AA", "AA" ]
+    },
+    "images": {
+        "large": "/drivers/WT-RFID.EU/assets/images/large.png",
+        "small": "/drivers/WT-RFID.EU/assets/images/small.png"
+    }
+}

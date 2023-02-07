@@ -1,0 +1,35 @@
+{
+  "id": "eu.benextapp",
+  "version": "2.0.4",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "name": {
+    "en": "Benext",
+    "nl": "Benext"
+  },
+  "author": {
+    "name": "Pieterv123"
+  },
+  "category": [
+    "lights",
+    "security"
+  ],
+  "description": {
+    "en": "Support for Benext devices",
+    "nl": "Support for Benext devices"
+  },
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "brandColor": "#000000",
+  "contributors": {
+    "developers": [
+      {
+        "name": "Jeroen Aartse",
+        "website": "http://www.webdesigntilburg.nl",
+        "email": "jeroen@webdesigntilburg.nl"
+      }
+    ]
+  }
+}
